@@ -19,7 +19,7 @@ def get_image_files(directory):
     return image_files
 
 # 이미지 파일이 들어있는 디렉토리 경로
-directory_path = "1"
+directory_path = "3"
 image_files_list = get_image_files(directory_path)
 print(image_files_list)
 
@@ -42,9 +42,11 @@ def read(image_files_list):
 
             if len(r) > 1 and r[len(r)-2] == r[len(r)-1]:
                 pass
+            else:
                 print(r[int(len(r))-1])
         if len(r) > 1 and r[len(r) - 2] == r[len(r) - 1]:
             pass
+        else:
             plt.figure(figsize=(8, 8))
             plt.imshow(img[:, :, ::-1])
             plt.axis('off')
