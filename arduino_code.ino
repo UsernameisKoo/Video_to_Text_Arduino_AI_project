@@ -1,7 +1,7 @@
 #include <Wire.h>
-#include<LiquidCrystal_I2C_Hangul.h>
+#include<LiquidCrystal_I2C.h>
 
-LiquidCrystal_I2C_Hangul lcd(0x27, 16, 2);  // I2C 주소는 LCD 모듈에 따라 다를 수 있습니다.
+LiquidCrystal_I2C lcd(0x27, 16, 2);  // I2C 주소는 LCD 모듈에 따라 다를 수 있습니다.
 
 void setup() {
   Serial.begin(9600);
