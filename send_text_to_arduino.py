@@ -22,7 +22,7 @@ def get_image_files(directory):
     return image_files
 
 # 이미지 파일이 들어있는 디렉토리 경로
-directory_path = "eng_ver"
+directory_path = "./eng_ver"
 image_files_list = get_image_files(directory_path)
 
 # 아두이노와 시리얼 통신 설정

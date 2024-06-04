@@ -2,6 +2,7 @@ import easyocr
 import cv2
 import matplotlib.pyplot as plt
 import os
+
 THRESHOLD = 0.5
 
 reader = easyocr.Reader(['ko', 'en'])
@@ -19,7 +20,7 @@ def get_image_files(directory):
     return image_files
 
 # 이미지 파일이 들어있는 디렉토리 경로
-directory_path = "3"
+directory_path = "./eng_ver"
 image_files_list = get_image_files(directory_path)
 
 

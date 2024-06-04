@@ -4,8 +4,8 @@ import os
 
 print(cv2.__version__)
 
-filepath = '3.mp4'
-video = cv2.VideoCapture(filepath) #'' 사이에 사용할 비디오 파일의 경로 및 이름을 넣어주도록 함
+filepath = 'eng_ver.mp4'
+video = cv2.VideoCapture(os.path.join(os.path.dirname(os.path.abspath(__file__)), filepath)) #'' 사이에 사용할 비디오 파일의 경로 및 이름을 넣어주도록 함
 
 if not video.isOpened():
     print("Could not Open :", filepath)
