@@ -12,7 +12,13 @@
 + Matplotlib
   
     pip install matplotlib
-  
+
++ PySerial
+
+  pip install serial
+
+### Arduino library that must be installed
++ LiquidCrystal_I2C
 
 ### kor_ver.mp4 / kor_full_ver.mp4
 "자동차 번호판 색깔의 의미", YouTube, uploaded by 이거알면인정 13 Jun. 2023,
