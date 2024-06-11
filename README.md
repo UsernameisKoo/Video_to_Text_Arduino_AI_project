@@ -1,5 +1,5 @@
 # 🚗 Video_to_Text_Arduino_AI_project
-## 0⃣ STEPS  -  프로젝트 실행 방법  
+## :zero: STEPS  -  프로젝트 실행 방법  
 ---------------------------------------
 1. 깃허브에서 zip파일 다운받아 압축을 풀고 파이썬 IDE(VSCODE, PYCHARM)에서 연다.
 
@@ -11,11 +11,11 @@
 - 아두이노가 준비된 경우 → __send_text_to_arduino.py__ 실행
 - 인식한 번호판만 파이썬에서 확인하고 싶은 경우 →  __video_to_text.py__ 실행
 
-## 1⃣ About our project  -  프로젝트 설명
+## :one: About our project  -  프로젝트 설명
 ---------------------------------------
 
 
-## 2⃣ Additional libraries required - 추가 설치 라이브러리
+## :two: Additional libraries required - 추가 설치 라이브러리
 ---------------------------------------
 -  Python packages that must be installed
     - EasyOCR
@@ -37,13 +37,13 @@
 - Arduino library that must be installed
      LiquidCrystal_I2C
 
-### kor_ver.mp4 / kor_full_ver.mp4
+## :three: Video References - 영상 출처
 ---------------------------------------
+- kor_ver.mp4 / kor_full_ver.mp4
 "자동차 번호판 색깔의 의미", YouTube, uploaded by 이거알면인정 13 Jun. 2023,
 https://www.youtube.com/shorts/kEYTpOo7-tI
 
-### eng_ver.mp4
----------------------------------------
+- eng_ver.mp4
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKhxuMTxNXfPb9hOZfUUbAeuZ2fLEyTUasTaNXOWwEnOjehP0iQs24CcfkNIgQHobHWo&usqp=CAU
 
 https://img4.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202105/22/chutcha/20210522110338247bprp.jpg
