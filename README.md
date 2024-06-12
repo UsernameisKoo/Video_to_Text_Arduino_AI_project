@@ -11,6 +11,12 @@
 - 아두이노가 준비된 경우 → __send_text_to_arduino.py__ 실행
 - 인식한 번호판만 파이썬에서 확인하고 싶은 경우 →  __video_to_text.py__ 실행
 
+✔️ 프로젝트에는 총 3개의 영상이 준비되어 있습니다.
+
+
+✔️ 다른 번호판 영상으로 바꿔서 실행하고 싶은 경우
+
+
 ## :one: About our project  -  프로젝트 설명
 ---------------------------------------
 
@@ -20,30 +26,32 @@
 -  Python packages that must be installed
     - EasyOCR
   
-     pip install easyocr
+    pip install easyocr
   
     - OpenCV
   
-     pip install opencv-python
+    pip install opencv-python
   
     - Matplotlib
   
-     pip install matplotlib
+    pip install matplotlib
 
     - PySerial
 
-     pip install serial
+    pip install serial
 
 - Arduino library that must be installed
-     LiquidCrystal_I2C
+    - LiquidCrystal_I2C
 
 ## :three: Video References - 영상 출처
 ---------------------------------------
 - kor_ver.mp4 / kor_full_ver.mp4
+  
 "자동차 번호판 색깔의 의미", YouTube, uploaded by 이거알면인정 13 Jun. 2023,
 https://www.youtube.com/shorts/kEYTpOo7-tI
 
 - eng_ver.mp4
+  
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKhxuMTxNXfPb9hOZfUUbAeuZ2fLEyTUasTaNXOWwEnOjehP0iQs24CcfkNIgQHobHWo&usqp=CAU
 
 https://img4.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202105/22/chutcha/20210522110338247bprp.jpg
