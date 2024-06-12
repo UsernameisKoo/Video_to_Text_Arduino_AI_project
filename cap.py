@@ -31,13 +31,13 @@ count = 0
 while (video.isOpened()): # video 열려있는 동안 실행
     retval, image = video.read() # image : 현재 프레임
     # int(video.get(1)) == int(video.get(cv2.CAP_PROP_POS_FRAMES))
+    # 읽는 프레임 없으면 while문 나가기
+    if (retval == False):
+        break
     if (int(video.get(1)) % fps == 0):  # 앞서 불러온 fps 값을 사용하여 1초마다 추출
         cv2.imwrite(filepath[:-4] + "/frame%d.jpg" % count, image) # 프레임 저장하기, cv2.imwrite(저장 경로, 저장 이미지)
         print('Saved frame number :', str(int(video.get(1))))
         count += 1
-    # 읽는 프레임 없으면 while문 나가기
-    if (retval == False):
-        break
 # 동영상 파일을 닫고 메모리 해제
 video.release()
 
