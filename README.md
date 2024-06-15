@@ -38,6 +38,8 @@ __send_text_to_arduino.py__ 와 __video_to_text.py__ 의 디렉토리 경로를 
 directory_path = "./eng_ver" # 해당 영상의 프레임이 저장된 디렉토리의 경로로 변경
 ```
 
+✔️ 원할 시 프레임 폴더를 삭제해도 됩니다.
+
 
 ## :one: About our project  -  프로젝트 설명
 ---------------------------------------
